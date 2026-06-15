@@ -10,7 +10,7 @@
 		<a-sky color="grey"></a-sky>
 		
 		<a-plane width="9" height="2" position="3 1 -9"></a-plane>
-		<a-text value="Харченко" color="black" width="10" position="-0.5 1 -6" font="fonts/times-msdf.json" negate="false"></a-text>
+		<a-text value="Харченко" color="black" width="10" position="-0.5 1 -6" font="./fonts/times-msdf.json" negate="false"></a-text>
 		
 		<a-torus position="-2 1 -5" color="#FFD700" radius="1.2" animation="property: material.color; from: #FFD700; to: #00FF00; dur: 1000; loop: true"></a-torus>
 		<a-cylinder position="2 -1 -5" radius="0.5" height="1.5" color="#00BFFF" animation="property: rotation; to: 360 0 0; dur: 1000; loop: true"></a-cylinder>
@@ -18,13 +18,13 @@
 			<a-torus position="-2 1 -5" color="#FFD700" radius="1.2" animation="property: material.color; from: #FFD700; to: #00FF00; dur: 1000; loop: true"></a-torus>
 		</a-entity>
 		
-		<a-sphere position="7 2 -4" radius="1" src="texture/ryan.png" animation="property: rotation; to: 0 360 0; dur: 1000; loop: true"></a-cylinder></a-sphere>
+		<a-sphere position="7 2 -4" radius="1" src="./texture/ryan.png" animation="property: rotation; to: 0 360 0; dur: 1000; loop: true"></a-cylinder></a-sphere>
 		
 		<a-entity 
 			position="2.5 3 -5" 
 			scale="1 1 1" 
 			rotation="0 -90 0"
-			gltf-model="models/neco-arc.glb">
+			gltf-model="./models/neco-arc.glb">
 		</a-entity>
 		
 		<a-entity position="0 5 -5">
